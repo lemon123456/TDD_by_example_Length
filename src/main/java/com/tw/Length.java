@@ -1,32 +1,32 @@
 package com.tw;
 
-import java.util.Hashtable;
 
 class Length {
-    private static String unit;
-    double length;
-
+    private String unit;
+    private double length;
 
     Length(double length, String unit) {
         this.length = length;
-        Length.unit = unit;
+        this.unit = unit;
     }
 
     static Length Meter(double length) {
         return new Length(length, "m");
     }
 
-    static Length CentiMeter(double length) {
+    static Length Centimeter(double length) {
         return new Length(length, "cm");
     }
 
-    static String getUnit() {
-        return unit;
+
+
+    String getUnit() {
+        return this.unit;
     }
 
     Length reduce(String toUnit) {
         double rate = rate(getUnit(), toUnit);
-        return Length.CentiMeter(this.length * rate);
+        return Length.Centimeter(this.length * rate);
     }
 
 
@@ -49,18 +49,17 @@ class Length {
 
         Length length1 = (Length) object;
 
-        return Double.compare(length1.length, length) == 0;
+        if (Double.compare(length1.length, length) != 0) return false;
+        return unit.equals(length1.unit);
     }
 
     @Override
     public int hashCode() {
-        long temp = Double.doubleToLongBits(length);
-        return (int) (temp ^ (temp >>> 32));
+        int result;
+        long temp;
+        result = unit.hashCode();
+        temp = Double.doubleToLongBits(length);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
     }
-
-//    Length times(int multiplier) {
-//        return new Length(this.length * multiplier, getUnit());
-//    }
-
-
 }

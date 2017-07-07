@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6172a6fe-99c3-42dd-955d-88e61ea86516" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/length/com/tw/Pair.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/length/com/tw/Rates.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/Pair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/Rates.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/length/com/tw/CentiMeter.class" afterPath="$PROJECT_DIR$/out/production/length/com/tw/CentiMeter.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/length/com/tw/CentiMeter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/length/com/tw/Meter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/length/com/tw/CentiMeterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/length/com/tw/MeterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tw/CentiMeter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tw/Meter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/tw/CentiMeterTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/tw/MeterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tw/LengthTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/length/com/tw/Length.class" afterPath="$PROJECT_DIR$/out/production/length/com/tw/Length.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/length/com/tw/Meter.class" afterPath="$PROJECT_DIR$/out/production/length/com/tw/Meter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/length/com/tw/CentiMeterTest.class" afterPath="$PROJECT_DIR$/out/test/length/com/tw/CentiMeterTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/length/com/tw/MeterTest.class" afterPath="$PROJECT_DIR$/out/test/length/com/tw/MeterTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/length/com/tw/Rates.class" afterPath="$PROJECT_DIR$/out/production/length/com/tw/Rates.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/CentiMeter.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/CentiMeter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/Length.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/Length.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/Meter.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/Meter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tw/CentiMeterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tw/CentiMeterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tw/MeterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tw/MeterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -36,51 +33,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MeterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/MeterTest.java">
+      <file leaf-file-name="LengthTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/LengthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="63" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="193">
+              <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Meter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Meter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CentiMeterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/CentiMeterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CentiMeter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CentiMeter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,36 +48,16 @@
       <file leaf-file-name="Length.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Length.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="58">
+              <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Rates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pair.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -178,9 +117,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tw/CentiMeter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/CentiMeterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Rates.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tw/MeterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/Meter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Rate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/Meter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/MeterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Length.java" />
       </list>
     </option>
@@ -315,13 +254,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.com.tw in length">
-    <configuration default="false" name="MeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="LengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="length" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tw" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.MeterTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.LengthTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -336,14 +275,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MeterTest.test_one_meter_unit_is_m" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="LengthTest.test_one_meter_not_equals_to_one_centimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="length" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tw" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.MeterTest" />
-      <option name="METHOD_NAME" value="test_one_meter_unit_is_m" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.LengthTest" />
+      <option name="METHOD_NAME" value="test_one_meter_not_equals_to_one_centimeter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -912,8 +851,8 @@
       <method />
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MeterTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MeterTest.test_one_meter_unit_is_m" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LengthTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LengthTest.test_one_meter_not_equals_to_one_centimeter" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.All in length" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.com.tw in length" />
     </list>
@@ -921,8 +860,8 @@
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.com.tw in length" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.All in length" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MeterTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MeterTest.test_one_meter_unit_is_m" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LengthTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LengthTest.test_one_meter_not_equals_to_one_centimeter" />
       </list>
     </recent_temporary>
   </component>
@@ -940,44 +879,44 @@
       <option name="presentableId" value="Default" />
       <updated>1499409466713</updated>
       <workItem from="1499409471006" duration="4776000" />
-      <workItem from="1499414772127" duration="4780000" />
+      <workItem from="1499414772127" duration="6834000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_tw_in_length - 2017.07.07 at 15h 49m 41s.xml">
-      <configuration name="com.tw in length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_tw_in_length - 2017.07.07 at 15h 57m 32s.xml">
-      <configuration name="com.tw in length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_tw_in_length - 2017.07.07 at 16h 06m 19s.xml">
-      <configuration name="com.tw in length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_tw_in_length - 2017.07.07 at 16h 35m 40s.xml">
-      <configuration name="com.tw in length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_tw_in_length - 2017.07.07 at 16h 37m 25s.xml">
-      <configuration name="com.tw in length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_tw_in_length - 2017.07.07 at 16h 58m 44s.xml">
-      <configuration name="com.tw in length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_tw_in_length - 2017.07.07 at 17h 03m 49s.xml">
-      <configuration name="com.tw in length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_tw_in_length - 2017.07.07 at 17h 07m 13s.xml">
-      <configuration name="com.tw in length" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_tw_in_length - 2017.07.07 at 17h 09m 02s.xml">
       <configuration name="com.tw in length" configurationId="JUnit" />
     </history-entry>
     <history-entry file="com_tw_in_length - 2017.07.07 at 17h 10m 31s.xml">
       <configuration name="com.tw in length" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_tw_in_length - 2017.07.07 at 18h 02m 55s.xml">
+      <configuration name="com.tw in length" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_tw_in_length - 2017.07.07 at 18h 03m 32s.xml">
+      <configuration name="com.tw in length" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_tw_in_length - 2017.07.07 at 18h 05m 24s.xml">
+      <configuration name="com.tw in length" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_tw_in_length - 2017.07.07 at 18h 06m 00s.xml">
+      <configuration name="com.tw in length" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_tw_in_length - 2017.07.07 at 18h 06m 33s.xml">
+      <configuration name="com.tw in length" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_tw_in_length - 2017.07.07 at 18h 11m 20s.xml">
+      <configuration name="com.tw in length" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_tw_in_length - 2017.07.07 at 18h 13m 16s.xml">
+      <configuration name="com.tw in length" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_tw_in_length - 2017.07.07 at 18h 14m 13s.xml">
+      <configuration name="com.tw in length" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9556000" />
+    <option name="totallyTimeSpent" value="11610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="0" />
@@ -1003,7 +942,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.48962656" order="0" side_tool="false" content_ui="tabs" />
@@ -1032,7 +971,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/MeterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/LengthTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
@@ -1046,10 +985,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,9 +993,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,10 +1001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,12 +1010,12 @@
         <state relative-caret-position="30">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1093,26 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/CentiMeterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1125,57 +1036,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/MeterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/CentiMeterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="63" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CentiMeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Meter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Rates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Meter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CentiMeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/LengthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Length.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="58">
+          <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
           </folding>
         </state>
       </provider>
